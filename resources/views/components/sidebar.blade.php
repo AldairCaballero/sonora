@@ -22,5 +22,8 @@
                 </a>
             </li>
         @endforeach
+                <li class="max-md:hidden">
+            <button type="button" data-tema class="w-full rounded-md p-3 text-left text-body-sm font-bold text-ink-muted transition hover:bg-surface-high hover:text-ink">Tema claro</button>
+        </li>
     </ul>
 </nav>

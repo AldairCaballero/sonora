@@ -65,3 +65,4 @@ No hay audio. El estado (cola, canción, volumen, favoritos y mezcla) se guarda 
 ![Inicio en móvil](capturas/04-inicio-movil.png)
 ![Playlist en móvil](capturas/05-playlist-movil.png)
 ![Reproductor en móvil](capturas/06-reproductor-movil.png)
+![Inicio en tema claro](capturas/07-inicio-claro.png)

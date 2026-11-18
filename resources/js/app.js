@@ -17,3 +17,27 @@ document.querySelectorAll('[data-filtros]').forEach((grupo) => {
         });
     });
 });
+// Tema: alterna entre oscuro y claro y lo recuerda.
+const botonTema = document.querySelector('[data-tema]');
+
+if (botonTema) {
+    const pintarTema = () => {
+        botonTema.textContent = document.documentElement.dataset.theme === 'light' ? 'Tema oscuro' : 'Tema claro';
+    };
+
+    botonTema.addEventListener('click', () => {
+        const nuevo = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+
+        document.documentElement.dataset.theme = nuevo;
+
+        try {
+            localStorage.setItem('sonora:tema', nuevo);
+        } catch {
+            // Sin almacenamiento, el tema solo dura mientras la página siga abierta.
+        }
+
+        pintarTema();
+    });
+
+    pintarTema();
+}

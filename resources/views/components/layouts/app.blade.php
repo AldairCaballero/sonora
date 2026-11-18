@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ $titulo ? $titulo.' · Sonora' : 'Sonora' }}</title>
+    <script>try{var t=localStorage.getItem('sonora:tema');if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t}}catch(e){}</script>
     @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
