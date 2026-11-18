@@ -58,3 +58,10 @@ No hay audio. El estado (cola, canción, volumen, favoritos y mezcla) se guarda 
 - **Reproducción:** `localStorage` más marca de tiempo; "Mezclar" reordena la cola para que lo que se ve sea lo que suena.
 - **Móvil:** el menú pasa a una cabecera superior y el reproductor se reduce a reproducir y siguiente.
 - **Qué cambiaría con más tiempo:** la pantalla Buscar, pasar los datos a base de datos con Eloquent y probar los componentes con pruebas automáticas.
+
+![Inicio en escritorio](capturas/01-inicio-escritorio.png)
+![Playlist en escritorio](capturas/02-playlist-escritorio.png)
+![Reproductor en escritorio](capturas/03-reproductor-escritorio.png)
+![Inicio en móvil](capturas/04-inicio-movil.png)
+![Playlist en móvil](capturas/05-playlist-movil.png)
+![Reproductor en móvil](capturas/06-reproductor-movil.png)
